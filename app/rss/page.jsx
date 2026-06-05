@@ -12,23 +12,41 @@ const SOURCES = [
 
 const emptyItem = { title: '', description: '', link: '', guid: '', guid_is_permalink: false, pub_date: '' };
 
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
 export default function RssPage() {
   const [source, setSource] = useState('psp');
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [editing, setEditing] = useState(null);
+  const year = new Date().getFullYear();
+  const [period, setPeriod] = useState({ month: '', week: '', day: '' }); // '' = any
 
   useEffect(() => {
     const q = new URLSearchParams(window.location.search).get('source');
     if (q && SOURCES.some(([s]) => s === q)) setSource(q);
   }, []);
 
-  async function load(s = source) {
+  // Build the m/w/d path from the period (stops at the first unset level).
+  const periodPath = (() => {
+    if (!period.month) return '';
+    let p = `/m${period.month}`;
+    if (period.week) { p += `/w${period.week}`; if (period.day) p += `/d${period.day}`; }
+    return p;
+  })();
+  const feedUrl = `/rss/${source}${periodPath}`;
+
+  async function load() {
     setLoading(true);
-    setItems(await fetch(`/api/rss/${s}`).then((r) => r.json()));
+    if (periodPath) {
+      const data = await fetch(`/rss/${source}${periodPath}?format=json&year=${year}`).then((r) => r.json());
+      setItems(data.items || []);
+    } else {
+      setItems(await fetch(`/api/rss/${source}`).then((r) => r.json()));
+    }
     setLoading(false);
   }
-  useEffect(() => { load(source); /* eslint-disable-next-line */ }, [source]);
+  useEffect(() => { load(); /* eslint-disable-next-line */ }, [source, periodPath]);
 
   return (
     <div className="space-y-5">
@@ -45,9 +63,24 @@ export default function RssPage() {
             </button>
           ))}
         </div>
-        <a href={`/rss/${source}`} target="_blank" rel="noreferrer" className="btn btn-ghost ml-auto text-sm">
-          <Icon.external className="w-4 h-4" /> view /rss/{source}
+        <a href={`${feedUrl}`} target="_blank" rel="noreferrer" className="btn btn-ghost ml-auto text-sm">
+          <Icon.external className="w-4 h-4" /> open XML
         </a>
+      </div>
+
+      {/* Time drill-down: month / week-of-month / day-of-week */}
+      <div className="card p-3 flex flex-wrap items-center gap-2 text-sm">
+        <span className="text-xs font-semibold uppercase tracking-wide text-slate-400 mr-1">Time filter</span>
+        <Sel value={period.month} onChange={(v) => setPeriod({ month: v, week: '', day: '' })}
+          placeholder="Month" options={MONTHS.map((m, i) => [String(i + 1), `m${i + 1} · ${m}`])} />
+        <Sel value={period.week} disabled={!period.month} onChange={(v) => setPeriod((p) => ({ ...p, week: v, day: '' }))}
+          placeholder="Week" options={[1, 2, 3, 4, 5].map((w) => [String(w), `w${w} · days ${(w - 1) * 7 + 1}–${w * 7}`])} />
+        <Sel value={period.day} disabled={!period.week} onChange={(v) => setPeriod((p) => ({ ...p, day: v }))}
+          placeholder="Day" options={[1, 2, 3, 4, 5, 6, 7].map((d) => [String(d), `d${d}`])} />
+        {period.month && (
+          <button onClick={() => setPeriod({ month: '', week: '', day: '' })} className="btn btn-soft text-xs">Clear</button>
+        )}
+        <code className="ml-auto text-xs text-slate-400 font-mono truncate">{feedUrl}{periodPath ? `  ·  ${year}` : ''}</code>
       </div>
 
       {loading ? <Skeleton /> : (
@@ -77,6 +110,17 @@ export default function RssPage() {
 
       {editing && <ItemModal source={source} item={editing} onClose={() => setEditing(null)} onSaved={() => { setEditing(null); load(); }} />}
     </div>
+  );
+}
+
+function Sel({ value, onChange, placeholder, options, disabled }) {
+  return (
+    <select value={value} disabled={disabled} onChange={(e) => onChange(e.target.value)}
+      className="border border-slate-200 rounded-xl px-2.5 py-1.5 text-sm bg-white disabled:bg-slate-50 disabled:text-slate-300
+                 focus:outline-none focus:ring-2 focus:ring-indigo-500/30 focus:border-indigo-400">
+      <option value="">{placeholder}: any</option>
+      {options.map(([v, label]) => <option key={v} value={v}>{label}</option>)}
+    </select>
   );
 }
 

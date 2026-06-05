@@ -47,6 +47,7 @@ export default function ApiDocs() {
           <Row m="GET" path="/rss/mmr" />
           <Row m="GET" path="/rss/csu" />
           <Row m="GET" path="/rss/cnb" />
+          <Row m="GET" path="/rss/{source}/m{n}[/w{n}[/d{n}]]" note="filter by month / week-of-month / day-of-week. e.g. /rss/psp/m6/w1/d4 = 4 Jun · /rss/psp/m6/w1 = Jun 1–7 · /rss/all/m6 = all feeds, June. ?year=2026 · ?format=json" />
         </Section>
 
         <Section icon="briefcase" title="ARES (JSON REST)" accent="bg-cyan-100 text-cyan-700">
