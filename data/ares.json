@@ -1,0 +1,160 @@
+{
+  "subjects": [
+    {
+      "ico": "27531241",
+      "obchodni_jmeno": "M&M reality holding a.s.",
+      "dic": "CZ27531241",
+      "pravni_forma": "121",
+      "datum_vzniku": "2006-03-15",
+      "sidlo": { "nazevObce": "Praha", "nazevUlice": "Krakovská", "cisloDomovni": 583, "cisloOrientacni": "9", "psc": 11000, "nazevCastiObce": "Nové Město", "kodStatu": "CZ" },
+      "nace": ["68310", "68320"],
+      "financni_urad": "Finanční úřad pro hlavní město Prahu",
+      "is_active": true
+    },
+    {
+      "ico": "28480023",
+      "obchodni_jmeno": "Sekyra Group, a.s.",
+      "dic": "CZ28480023",
+      "pravni_forma": "121",
+      "datum_vzniku": "2008-09-01",
+      "sidlo": { "nazevObce": "Praha", "nazevUlice": "Pernerova", "cisloDomovni": 691, "cisloOrientacni": "42", "psc": 18600, "nazevCastiObce": "Karlín", "kodStatu": "CZ" },
+      "nace": ["41100", "68100"],
+      "financni_urad": "Finanční úřad pro hlavní město Prahu",
+      "is_active": true
+    },
+    {
+      "ico": "27361376",
+      "obchodni_jmeno": "Trigema a.s.",
+      "dic": "CZ27361376",
+      "pravni_forma": "121",
+      "datum_vzniku": "2005-06-20",
+      "sidlo": { "nazevObce": "Praha", "nazevUlice": "Bucharova", "cisloDomovni": 2641, "cisloOrientacni": "14", "psc": 15800, "nazevCastiObce": "Stodůlky", "kodStatu": "CZ" },
+      "nace": ["41100", "41200"],
+      "financni_urad": "Finanční úřad pro hlavní město Prahu",
+      "is_active": true
+    },
+    {
+      "ico": "26200029",
+      "obchodni_jmeno": "Lexxus Norton s.r.o.",
+      "dic": "CZ26200029",
+      "pravni_forma": "112",
+      "datum_vzniku": "2003-04-10",
+      "sidlo": { "nazevObce": "Praha", "nazevUlice": "Václavské náměstí", "cisloDomovni": 846, "cisloOrientacni": "1", "psc": 11000, "nazevCastiObce": "Nové Město", "kodStatu": "CZ" },
+      "nace": ["68310"],
+      "financni_urad": "Finanční úřad pro hlavní město Prahu",
+      "is_active": true
+    },
+    {
+      "ico": "25657275",
+      "obchodni_jmeno": "Zeus realitní kancelář s.r.o.",
+      "dic": "CZ25657275",
+      "pravni_forma": "112",
+      "datum_vzniku": "1999-11-02",
+      "sidlo": { "nazevObce": "Brno", "nazevUlice": "Veveří", "cisloDomovni": 102, "cisloOrientacni": "3", "psc": 61600, "nazevCastiObce": "Žabovřesky", "kodStatu": "CZ" },
+      "nace": ["68310"],
+      "financni_urad": "Finanční úřad pro Jihomoravský kraj",
+      "is_active": true
+    },
+    {
+      "ico": "29044680",
+      "obchodni_jmeno": "EXPLICIT REALITY s.r.o.",
+      "dic": "CZ29044680",
+      "pravni_forma": "112",
+      "datum_vzniku": "2011-02-18",
+      "sidlo": { "nazevObce": "Ostrava", "nazevUlice": "Stodolní", "cisloDomovni": 316, "cisloOrientacni": "2", "psc": 70200, "nazevCastiObce": "Moravská Ostrava", "kodStatu": "CZ" },
+      "nace": ["68310"],
+      "financni_urad": "Finanční úřad pro Moravskoslezský kraj",
+      "is_active": true
+    },
+    {
+      "ico": "24225631",
+      "obchodni_jmeno": "TiBi reality s.r.o.",
+      "dic": "CZ24225631",
+      "pravni_forma": "112",
+      "datum_vzniku": "2012-07-05",
+      "sidlo": { "nazevObce": "Plzeň", "nazevUlice": "Klatovská třída", "cisloDomovni": 200, "cisloOrientacni": "a", "psc": 30100, "nazevCastiObce": "Jižní Předměstí", "kodStatu": "CZ" },
+      "nace": ["68310"],
+      "financni_urad": "Finanční úřad pro Plzeňský kraj",
+      "is_active": true
+    },
+    {
+      "ico": "06724399",
+      "obchodni_jmeno": "CoolPeople Invest s.r.o.",
+      "dic": "CZ06724399",
+      "pravni_forma": "112",
+      "datum_vzniku": "2018-01-22",
+      "sidlo": { "nazevObce": "Praha", "nazevUlice": "Sokolovská", "cisloDomovni": 675, "cisloOrientacni": "9", "psc": 18600, "nazevCastiObce": "Karlín", "kodStatu": "CZ" },
+      "nace": ["68310", "64200"],
+      "financni_urad": "Finanční úřad pro hlavní město Prahu",
+      "is_active": true
+    },
+    {
+      "ico": "63080249",
+      "obchodni_jmeno": "AC Real, spol. s r.o.",
+      "dic": "CZ63080249",
+      "pravni_forma": "112",
+      "datum_vzniku": "1995-03-30",
+      "sidlo": { "nazevObce": "Olomouc", "nazevUlice": "Horní náměstí", "cisloDomovni": 367, "cisloOrientacni": "7", "psc": 77900, "nazevCastiObce": "Olomouc", "kodStatu": "CZ" },
+      "nace": ["68310"],
+      "financni_urad": "Finanční úřad pro Olomoucký kraj",
+      "is_active": true
+    },
+    {
+      "ico": "04612871",
+      "obchodni_jmeno": "WINKLER & partneři s.r.o. v likvidaci",
+      "dic": "CZ04612871",
+      "pravni_forma": "112",
+      "datum_vzniku": "2015-12-01",
+      "datum_zaniku": null,
+      "sidlo": { "nazevObce": "Liberec", "nazevUlice": "Pražská", "cisloDomovni": 14, "cisloOrientacni": "8", "psc": 46001, "nazevCastiObce": "Liberec I-Staré Město", "kodStatu": "CZ" },
+      "nace": ["68310"],
+      "financni_urad": "Finanční úřad pro Liberecký kraj",
+      "is_active": true
+    },
+    {
+      "ico": "27082440",
+      "obchodni_jmeno": "Trefoil Reality a.s. „v konkursu“",
+      "dic": "CZ27082440",
+      "pravni_forma": "121",
+      "datum_vzniku": "2007-05-14",
+      "sidlo": { "nazevObce": "Praha", "nazevUlice": "Národní", "cisloDomovni": 60, "cisloOrientacni": "28", "psc": 11000, "nazevCastiObce": "Nové Město", "kodStatu": "CZ" },
+      "nace": ["68100", "68310"],
+      "financni_urad": "Finanční úřad pro hlavní město Prahu",
+      "is_active": true
+    },
+    {
+      "ico": "45274649",
+      "obchodni_jmeno": "Stará developerská a.s. v likvidaci",
+      "dic": null,
+      "pravni_forma": "121",
+      "datum_vzniku": "1992-05-04",
+      "datum_zaniku": "2024-11-30",
+      "sidlo": { "nazevObce": "Kladno", "nazevUlice": "T. G. Masaryka", "cisloDomovni": 12, "cisloOrientacni": "3", "psc": 27201, "nazevCastiObce": "Kladno", "kodStatu": "CZ" },
+      "nace": ["41100"],
+      "financni_urad": "Finanční úřad pro Středočeský kraj",
+      "is_active": false
+    },
+    {
+      "ico": "88201783",
+      "obchodni_jmeno": "Alžběta Nováková",
+      "dic": null,
+      "pravni_forma": "101",
+      "datum_vzniku": "2013-09-12",
+      "sidlo": { "nazevObce": "Praha", "nazevUlice": "Paláskova", "cisloDomovni": 1106, "cisloOrientacni": "5", "psc": 18200, "nazevCastiObce": "Kobylisy", "kodStatu": "CZ" },
+      "nace": ["68310"],
+      "financni_urad": "Finanční úřad pro hlavní město Prahu",
+      "is_active": true
+    },
+    {
+      "ico": "01509284",
+      "obchodni_jmeno": "Home Real Estate s.r.o.",
+      "dic": "CZ01509284",
+      "pravni_forma": "112",
+      "datum_vzniku": "2013-06-25",
+      "sidlo": { "nazevObce": "Praha", "nazevUlice": "Anglická", "cisloDomovni": 140, "cisloOrientacni": "20", "psc": 12000, "nazevCastiObce": "Vinohrady", "kodStatu": "CZ" },
+      "nace": ["68310"],
+      "financni_urad": "Finanční úřad pro hlavní město Prahu",
+      "is_active": true
+    }
+  ]
+}

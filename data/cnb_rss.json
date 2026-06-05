@@ -1,0 +1,42 @@
+{
+  "channel": {
+    "source": "cnb",
+    "title": "ČNB — Tiskové zprávy",
+    "link": "https://www.cnb.cz/cs/cnb-news/tiskove-zpravy/",
+    "description": "Tiskové zprávy České národní banky.",
+    "language": "cs",
+    "self_url": "https://www.cnb.cz/cs/cnb-news/tiskove-zpravy/rss",
+    "copyright": "Copyright Česká národní banka",
+    "webmaster": "info@cnb.cz"
+  },
+  "items": [
+    {
+      "guid": "cnb-repo-2026-05",
+      "title": "ČNB ponechala úrokové sazby beze změny, 2T repo sazba zůstává na 3,50 %",
+      "description": "Bankovní rada ČNB na svém zasedání rozhodla ponechat dvoutýdenní repo sazbu na úrovni 3,50 %. Diskontní sazba zůstává na 2,50 % a lombardní sazba na 4,50 %.",
+      "link": "https://www.cnb.cz/cs/cnb-news/tiskove-zpravy/menove-rozhodnuti-kveten-2026",
+      "pub_date": "2026-05-07T13:30:00Z"
+    },
+    {
+      "guid": "cnb-hypoteky-2026-04",
+      "title": "Statistika hypotečních úvěrů za duben 2026",
+      "description": "Objem nově poskytnutých hypotečních úvěrů v dubnu 2026 dosáhl 28,4 mld. Kč, meziměsíčně o 4,2 % více. Průměrná sazba u nových úvěrů na bydlení klesla na 4,71 %.",
+      "link": "https://www.cnb.cz/cs/cnb-news/tiskove-zpravy/hypotecni-statistika-duben-2026",
+      "pub_date": "2026-05-30T09:00:00Z"
+    },
+    {
+      "guid": "cnb-makroobezretnost-2026q2",
+      "title": "ČNB upravuje horní hranici ukazatele DSTI pro nové úvěry na bydlení",
+      "description": "Bankovní rada rozhodla o úpravě makroobezřetnostních limitů. Horní hranice ukazatele DSTI se od 1. července 2026 stanovuje na 45 %, limit LTV zůstává na 80 % (90 % pro žadatele do 36 let).",
+      "link": "https://www.cnb.cz/cs/cnb-news/tiskove-zpravy/makroobezretnostni-limity-2026q2",
+      "pub_date": "2026-06-04T10:00:00Z"
+    },
+    {
+      "guid": "cnb-zfs-2026",
+      "title": "Zpráva o finanční stabilitě – jaro 2026",
+      "description": "ČNB zveřejnila Zprávu o finanční stabilitě. Sektor rezidenčních nemovitostí zůstává mírně nadhodnocen, banky jsou vůči případnému poklesu cen odolné.",
+      "link": "https://www.cnb.cz/cs/cnb-news/tiskove-zpravy/zprava-o-financni-stabilite-jaro-2026",
+      "pub_date": "2026-05-28T10:00:00Z"
+    }
+  ]
+}

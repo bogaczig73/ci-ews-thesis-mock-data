@@ -1,0 +1,49 @@
+{
+  "channel": {
+    "source": "csu",
+    "title": "ČSÚ — Rychlé informace",
+    "link": "https://csu.gov.cz/rychle-informace",
+    "description": "Aktuální statistické výstupy Českého statistického úřadu (Rychlé informace).",
+    "language": "cs",
+    "self_url": "https://csu.gov.cz/rss/rychle-informace",
+    "copyright": "Copyright Český statistický úřad",
+    "webmaster": "infoservis@csu.gov.cz"
+  },
+  "items": [
+    {
+      "guid": "csu-ceny-bytu-2026q1",
+      "title": "Ceny bytů v 1. čtvrtletí 2026 vzrostly meziročně o 6,8 %",
+      "description": "Index cen bytů (realizované ceny) ve 1. čtvrtletí 2026 meziročně vzrostl o 6,8 %, mezičtvrtletně o 1,9 %. Nejvyšší růst zaznamenala Praha a Středočeský kraj.",
+      "link": "https://csu.gov.cz/rychle-informace/ceny-bytu-1-ctvrtleti-2026",
+      "pub_date": "2026-06-02T08:00:00Z"
+    },
+    {
+      "guid": "csu-stavebnictvi-2026-04",
+      "title": "Stavebnictví v dubnu 2026: stavební produkce meziročně klesla o 1,2 %",
+      "description": "Stavební produkce se v dubnu 2026 meziročně snížila o 1,2 %. Počet vydaných stavebních povolení vzrostl o 3,4 %, orientační hodnota povolených staveb dosáhla 48,7 mld. Kč.",
+      "link": "https://csu.gov.cz/rychle-informace/stavebnictvi-duben-2026",
+      "pub_date": "2026-06-05T08:00:00Z"
+    },
+    {
+      "guid": "csu-hpi-2025q4",
+      "title": "Index cen nemovitostí (HPI) ve 4. čtvrtletí 2025",
+      "description": "Index cen nemovitostí (House Price Index) ve 4. čtvrtletí 2025 meziročně vzrostl o 5,1 %. Ceny nových bytů rostly rychleji než ceny starších nemovitostí.",
+      "link": "https://csu.gov.cz/rychle-informace/hpi-4-ctvrtleti-2025",
+      "pub_date": "2026-03-13T08:00:00Z"
+    },
+    {
+      "guid": "csu-inflace-2026-05",
+      "title": "Míra inflace v květnu 2026 dosáhla 2,4 %",
+      "description": "Spotřebitelské ceny v květnu 2026 meziročně vzrostly o 2,4 %. K růstu nejvíce přispěly ceny v oddíle bydlení, voda, energie a paliva.",
+      "link": "https://csu.gov.cz/rychle-informace/inflace-kveten-2026",
+      "pub_date": "2026-06-10T08:00:00Z"
+    },
+    {
+      "guid": "csu-stavebni-povoleni-2026q1",
+      "title": "Bytová výstavba v 1. čtvrtletí 2026: zahájeno o 8 % více bytů",
+      "description": "V 1. čtvrtletí 2026 bylo zahájeno 9 842 bytů, meziročně o 8,0 % více. Dokončeno bylo 8 211 bytů. Růst táhly bytové domy v Praze a Jihomoravském kraji.",
+      "link": "https://csu.gov.cz/rychle-informace/bytova-vystavba-1-ctvrtleti-2026",
+      "pub_date": "2026-05-20T08:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,1850 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "Date": "Thu, 07 May 2026 18:12:31 GMT",
+    "Cache-Control": "no-cache=\"set-cookie\"",
+    "Set-Cookie": "lastsrch=; Domain=sreality.cz; expires=Thu, 07-May-2026 20:12:30 GMT; Max-Age=0; Path=/; HttpOnly,sznlbr=1YCI6s888GENTVgNCl65COeg.ydF2vX1tfoI1utT-WPNnZolX60RTmAvDiaFVdx5igRA; HttpOnly; Secure; Max-Age=86400; Path=/",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "x-ms-islandgateway": "_prdil102neugb0_3",
+    "x-ms-igw-tracking-id": "70ae6149-e6c1-4baf-b00f-1198173822a420260507181230_prdil102neugb0_3",
+    "mise-correlation-id": "a065fa41-788f-4642-b9d6-270b2540db07",
+    "x-envoy-upstream-service-time": "302",
+    "Server-Timing": "x-ms-igw-upstream-headers;dur=436.1,x-ms-igw-req-overhead;dur=0.6",
+    "X-Content-Type-Options": "nosniff",
+    "x-ms-service-request-id": "70ae6149-e6c1-4baf-b00f-1198173822a4",
+    "x-ms-correlation-id": "f86be84a-03b7-4d78-9cad-03d0d2ac5ce7",
+    "x-ms-activity-vector": "00.00.IN.07.IN.0S.00",
+    "Content-Type": "application/hal+json",
+    "Expires": "Thu, 01 Jan 1970 08:00:00 GMT",
+    "Content-Length": "170925"
+  },
+  "body": {
+    "meta_description": "",
+    "result_size": 30518,
+    "_embedded": {
+      "estates": [
+        {
+          "_embedded": {
+            "company": {
+              "url": "Bohemian-Estates-Praha-Holesovice",
+              "id": 2504,
+              "name": "Bohemian Estates",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/ccjB5L3.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 4070023244,
+          "name": "Pronájem bytu 3+kk 59 m² (Jednopodlažní)",
+          "locality": "Paláskova, Praha 8 - Kobylisy",
+          "price": 27000,
+          "price_czk": {
+            "value_raw": 27000,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.129032,
+            "lon": 14.45115
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "ENGEL-VOLKERS-Praha-Smichov",
+              "id": 10628,
+              "name": "ENGEL & VÖLKERS",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_y/DbiKP5.png?fl=res,70,70,1,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 375103564,
+          "name": "Pronájem bytu 5+1 168 m² (Mezonet)",
+          "locality": "Štefánikova, Praha 5 - Smíchov",
+          "price": 60000,
+          "price_czk": {
+            "value_raw": 60000,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.075371,
+            "lon": 14.40394
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Bohemian-Estates-Praha-Holesovice",
+              "id": 2504,
+              "name": "Bohemian Estates",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/ccjB5L3.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2091819084,
+          "name": "Pronájem bytu 3+kk 71 m²",
+          "locality": "Prokopova, Praha 3 - Žižkov",
+          "price": 39000,
+          "price_czk": {
+            "value_raw": 39000,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.084194,
+            "lon": 14.457137
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 134480716,
+          "name": "Prodej bytu 3+kk 66 m² (Jednopodlažní)",
+          "locality": "Na Ladech, Šestajovice",
+          "price": 9404192,
+          "price_czk": {
+            "value_raw": 9404192,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.108482,
+            "lon": 14.680161
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "RE-MAX-Alfa-Praha",
+              "id": 9002,
+              "name": "RE/MAX Alfa",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/remax.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 654574412,
+          "name": "Prodej bytu 2+kk 69 m² (Jednopodlažní)",
+          "locality": "Na Ladech, Šestajovice",
+          "price": 9358720,
+          "price_czk": {
+            "value_raw": 9358720,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.108482,
+            "lon": 14.680161
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Lexxus-Norton-Praha",
+              "id": 9003,
+              "name": "Lexxus Norton",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/lexxus.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3612758860,
+          "name": "Prodej bytu 3+1 55 m²",
+          "locality": "Krásného, Brno - Židenice",
+          "price": 7950000,
+          "price_czk": {
+            "value_raw": 7950000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.190197,
+            "lon": 16.657854
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "ENGEL-VOLKERS-Praha-Smichov",
+              "id": 10628,
+              "name": "ENGEL & VÖLKERS",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_y/DbiKP5.png?fl=res,70,70,1,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 1942504268,
+          "name": "Prodej bytu 2+kk 51 m²",
+          "locality": "Moskevská, Karlovy Vary",
+          "price": 3890000,
+          "price_czk": {
+            "value_raw": 3890000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.227982,
+            "lon": 12.861881
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Bohemian-Estates-Praha-Holesovice",
+              "id": 2504,
+              "name": "Bohemian Estates",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/ccjB5L3.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 4202578764,
+          "name": "Prodej bytu 1+kk 40 m²",
+          "locality": "Železná, Plzeň - Jižní Předměstí",
+          "price": 5350000,
+          "price_czk": {
+            "value_raw": 5350000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.731941,
+            "lon": 13.35575
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 4156048204,
+          "name": "Prodej bytu 4+kk 96 m² (Mezonet)",
+          "locality": "Kozinovo náměstí, Praha 10 - Hostivař",
+          "price": 16590000,
+          "price_czk": {
+            "value_raw": 16590000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.049732,
+            "lon": 14.522922
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "RE-MAX-Alfa-Praha",
+              "id": 9002,
+              "name": "RE/MAX Alfa",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/remax.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 2584630092,
+          "name": "Prodej bytu 3+1 73 m²",
+          "locality": "Karafiátová, Olomouc - Neředín",
+          "price": 5997128,
+          "price_czk": {
+            "value_raw": 5997128,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.587822,
+            "lon": 17.2279
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Lexxus-Norton-Praha",
+              "id": 9003,
+              "name": "Lexxus Norton",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/lexxus.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3103502412,
+          "name": "Prodej bytu 1+kk 31 m² (Jednopodlažní)",
+          "locality": "Osvobození, Orlová - Lutyně",
+          "price": 1,
+          "price_czk": {
+            "value_raw": 1,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.872684,
+            "lon": 18.427956
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "ENGEL-VOLKERS-Praha-Smichov",
+              "id": 10628,
+              "name": "ENGEL & VÖLKERS",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_y/DbiKP5.png?fl=res,70,70,1,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 2325422668,
+          "name": "Prodej bytu 3+1 147 m²",
+          "locality": "Anglická, Mariánské Lázně",
+          "price": 7798000,
+          "price_czk": {
+            "value_raw": 7798000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.972576,
+            "lon": 12.705198
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Bohemian-Estates-Praha-Holesovice",
+              "id": 2504,
+              "name": "Bohemian Estates",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/ccjB5L3.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 2667340620,
+          "name": "Prodej bytu 3+1 80 m²",
+          "locality": "Lipenská, České Budějovice - České Budějovice 3",
+          "price": 5997000,
+          "price_czk": {
+            "value_raw": 5997000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 48.979321,
+            "lon": 14.4834
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 2829819980,
+          "name": "Prodej bytu 1+kk 32 m²",
+          "locality": "Hradčanská, Kladno - Dubí",
+          "price": 3188000,
+          "price_czk": {
+            "value_raw": 3188000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.149216,
+            "lon": 14.137625
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "RE-MAX-Alfa-Praha",
+              "id": 9002,
+              "name": "RE/MAX Alfa",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/remax.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3979718732,
+          "name": "Prodej bytu 2+1 62 m²",
+          "locality": "Litevská, Kladno - Kročehlavy",
+          "price": 5888000,
+          "price_czk": {
+            "value_raw": 5888000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.13237,
+            "lon": 14.134303
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Lexxus-Norton-Praha",
+              "id": 9003,
+              "name": "Lexxus Norton",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/lexxus.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3618222156,
+          "name": "Prodej bytu 1+1 29 m²",
+          "locality": "Kyjevská, Kladno",
+          "price": 3498000,
+          "price_czk": {
+            "value_raw": 3498000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.143406,
+            "lon": 14.076011
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "ENGEL-VOLKERS-Praha-Smichov",
+              "id": 10628,
+              "name": "ENGEL & VÖLKERS",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_y/DbiKP5.png?fl=res,70,70,1,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 1082826828,
+          "name": "Prodej bytu 3+1 71 m²",
+          "locality": "Vokáčova, Praha 4 - Michle",
+          "price": 12056600,
+          "price_czk": {
+            "value_raw": 12056600,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.047722,
+            "lon": 14.446011
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Bohemian-Estates-Praha-Holesovice",
+              "id": 2504,
+              "name": "Bohemian Estates",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/ccjB5L3.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 831017548,
+          "name": "Prodej bytu 2+kk 52 m²",
+          "locality": "Nová, Kouřim",
+          "price": 4990000,
+          "price_czk": {
+            "value_raw": 4990000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.002731,
+            "lon": 14.968456
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 1166415180,
+          "name": "Prodej bytu 3+kk 70 m² (Mezonet)",
+          "locality": "Nová, Kouřim",
+          "price": 6490000,
+          "price_czk": {
+            "value_raw": 6490000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.002731,
+            "lon": 14.968456
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "WINKLER-partneri-Brno-Brno-mesto",
+              "id": 20241,
+              "name": "WINKLER & partneři",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QJ_n/hxDDby.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2811315020,
+          "name": "Pronájem bytu 2+kk 56 m²",
+          "locality": "Karáskovo náměstí, Brno - Židenice",
+          "price": 18000,
+          "price_czk": {
+            "value_raw": 18000,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.197445,
+            "lon": 16.640635
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "WINKLER-partneri-Brno-Brno-mesto",
+              "id": 20241,
+              "name": "WINKLER & partneři",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QJ_n/hxDDby.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 1990828108,
+          "name": "Pronájem bytu 1+1 44 m²",
+          "locality": "Tučkova, Brno - Veveří",
+          "price": 20000,
+          "price_czk": {
+            "value_raw": 20000,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.206425,
+            "lon": 16.598682
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "AC-Real-Brno-Komin",
+              "id": 2293,
+              "name": "AC Real",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_m1_A/kOevy4vQYjBB6V8Tdz7KS/6ab0.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 836149324,
+          "name": "Prodej bytu 3+kk 57 m²",
+          "locality": "Košuličova, Brno - Horní Heršpice",
+          "price": 9816407,
+          "price_czk": {
+            "value_raw": 9816407,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.167629,
+            "lon": 16.611403
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Sarka-Sattar-Praha-Nove-Mesto",
+              "id": 37397,
+              "name": "Šárka Sattar",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_gT_g/FQLL0l.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 2636530508,
+          "name": "Prodej bytu 3+kk 74 m²",
+          "locality": "Před Cibulkami, Praha 5 - Košíře",
+          "price": 10890000,
+          "price_czk": {
+            "value_raw": 10890000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.067097,
+            "lon": 14.36591
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "ENGEL-VOLKERS-Praha-Smichov",
+              "id": 10628,
+              "name": "ENGEL & VÖLKERS",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_y/DbiKP5.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 1048068940,
+          "name": "Pronájem bytu 4+kk 170 m² (Mezonet)",
+          "locality": "Havlíčkovy sady, Praha 2 - Vinohrady",
+          "price": 65000,
+          "price_czk": {
+            "value_raw": 65000,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.07077,
+            "lon": 14.44415
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Sekyra-Group-Praha-Karlin",
+              "id": 3360,
+              "name": "Sekyra Group",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_g/RYpNU.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 2437342028,
+          "name": "Prodej bytu 3+kk 74 m²",
+          "locality": "Šiklové, Praha 5 - Smíchov",
+          "price": 17172784,
+          "price_czk": {
+            "value_raw": 17172784,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.067234,
+            "lon": 14.405532
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "EXPLICIT-REALITY-Menime-realitni-trh-k-lepsimu-Zlin",
+              "id": 17898,
+              "name": "EXPLICIT REALITY - Měníme realitní trh k lepšímu",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_oW_A/kObgaqJNMnujDqgSCRNp8a/a3d3.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 1989324876,
+          "name": "Prodej bytu 3+1 61 m²",
+          "locality": "třída Svobody, Zlín - Malenovice",
+          "price": 5350000,
+          "price_czk": {
+            "value_raw": 5350000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.20628,
+            "lon": 17.588381
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "RE-MAX-Alfa-Praha",
+              "id": 9002,
+              "name": "RE/MAX Alfa",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/remax.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 1185521740,
+          "name": "Pronájem bytu 3+1 72 m²",
+          "locality": "Rimavské Soboty, Kolín - Kolín II",
+          "price": 17500,
+          "price_czk": {
+            "value_raw": 17500,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.021923,
+            "lon": 15.188328
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Lexxus-Norton-Praha",
+              "id": 9003,
+              "name": "Lexxus Norton",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/lexxus.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 136683596,
+          "name": "Prodej bytu 2+kk 47 m²",
+          "locality": "Kováříkova, Praha 5 - Hlubočepy",
+          "price": 7790000,
+          "price_czk": {
+            "value_raw": 7790000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.030586,
+            "lon": 14.365058
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "ENGEL-VOLKERS-Praha-Smichov",
+              "id": 10628,
+              "name": "ENGEL & VÖLKERS",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_y/DbiKP5.png?fl=res,70,70,1,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3595677772,
+          "name": "Prodej bytu 2+kk 48 m²",
+          "locality": "Dřevčická, Brandýs nad Labem-Stará Boleslav - Brandýs nad Labem",
+          "price": 7338113,
+          "price_czk": {
+            "value_raw": 7338113,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.17329,
+            "lon": 14.648778
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Bohemian-Estates-Praha-Holesovice",
+              "id": 2504,
+              "name": "Bohemian Estates",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/ccjB5L3.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 4111114316,
+          "name": "Prodej bytu 3+1 113 m²",
+          "locality": "Nádražní, Český Těšín",
+          "price": 3490000,
+          "price_czk": {
+            "value_raw": 3490000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.745472,
+            "lon": 18.622959
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "TiBi-reality-Blansko",
+              "id": 60573,
+              "name": "TiBi reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_gX_s/x9wGbM.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 1704239180,
+          "name": "Pronájem bytu 3+1 87 m²",
+          "locality": "L. Janáčka, Blansko",
+          "price": 22000,
+          "price_czk": {
+            "value_raw": 22000,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.359165,
+            "lon": 16.654305
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "ENGEL-VOLKERS-Praha-Smichov",
+              "id": 10628,
+              "name": "ENGEL & VÖLKERS",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_y/DbiKP5.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 1778910028,
+          "name": "Prodej bytu 3+1 103 m²",
+          "locality": "Jindřicha Plachty, Praha 5 - Smíchov",
+          "price": 14990000,
+          "price_czk": {
+            "value_raw": 14990000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.070507,
+            "lon": 14.406563
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "ENGEL-VOLKERS-Praha-Smichov",
+              "id": 10628,
+              "name": "ENGEL & VÖLKERS",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_y/DbiKP5.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3439813452,
+          "name": "Prodej bytu 5+kk 162 m² (Mezonet)",
+          "locality": "Grafická, Praha 5 - Smíchov",
+          "price": 29980000,
+          "price_czk": {
+            "value_raw": 29980000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.072845,
+            "lon": 14.393141
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Sekyra-Group-Praha-Karlin",
+              "id": 3360,
+              "name": "Sekyra Group",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_g/RYpNU.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3631997516,
+          "name": "Prodej bytu 4+kk 77 m²",
+          "locality": "Schoellerova, Praha 9 - Čakovice",
+          "price": 14008375,
+          "price_czk": {
+            "value_raw": 14008375,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.157612,
+            "lon": 14.524825
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "CoolPeople-Invest-Praha-Krc",
+              "id": 71799,
+              "name": "CoolPeople Invest",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QP_BL/9WZGLg.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 1781575756,
+          "name": "Prodej bytu 2+kk 38 m²",
+          "locality": "Holečkova, Praha 5 - Košíře",
+          "price": 7290000,
+          "price_czk": {
+            "value_raw": 7290000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.0723,
+            "lon": 14.388198
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "CoolPeople-Invest-Praha-Krc",
+              "id": 71799,
+              "name": "CoolPeople Invest",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QP_BL/9WZGLg.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 2234425420,
+          "name": "Prodej bytu 1+kk 30 m²",
+          "locality": "Holečkova, Praha 5 - Košíře",
+          "price": 5990000,
+          "price_czk": {
+            "value_raw": 5990000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.0723,
+            "lon": 14.388198
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "CoolPeople-Invest-Praha-Krc",
+              "id": 71799,
+              "name": "CoolPeople Invest",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QP_BL/9WZGLg.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3241058380,
+          "name": "Prodej bytu 2+kk 38 m²",
+          "locality": "Holečkova, Praha 5 - Košíře",
+          "price": 7590000,
+          "price_czk": {
+            "value_raw": 7590000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.0723,
+            "lon": 14.388198
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "CoolPeople-Invest-Praha-Krc",
+              "id": 71799,
+              "name": "CoolPeople Invest",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QP_BL/9WZGLg.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3607146572,
+          "name": "Prodej bytu 2+kk 51 m²",
+          "locality": "Holečkova, Praha 5 - Košíře",
+          "price": 8990000,
+          "price_czk": {
+            "value_raw": 8990000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.0723,
+            "lon": 14.388198
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "CoolPeople-Invest-Praha-Krc",
+              "id": 71799,
+              "name": "CoolPeople Invest",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QP_BL/9WZGLg.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3945836620,
+          "name": "Prodej bytu 2+kk 26 m²",
+          "locality": "Holečkova, Praha 5 - Košíře",
+          "price": 4990000,
+          "price_czk": {
+            "value_raw": 4990000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.0723,
+            "lon": 14.388198
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Zeus-realitni-kancelar-s-r-o-Praha-Cerny-Most",
+              "id": 421,
+              "name": "Zeus realitní kancelář s.r.o.",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_H_B/u1mRYP.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2349310028,
+          "name": "Pronájem bytu 1+kk 22 m²",
+          "locality": "V podluží, Praha 4 - Nusle",
+          "price": 14990,
+          "price_czk": {
+            "value_raw": 14990,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.061131,
+            "lon": 14.44494
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 1259012940,
+          "name": "Prodej bytu 3+kk 86 m² (Jednopodlažní)",
+          "locality": "Kurandové, Praha 5 - Hlubočepy",
+          "price": 1,
+          "price_czk": {
+            "value_raw": 1,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.031612,
+            "lon": 14.379066
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "RE-MAX-Alfa-Praha",
+              "id": 9002,
+              "name": "RE/MAX Alfa",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/remax.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2055512140,
+          "name": "Pronájem bytu 3+kk 80 m² (Jednopodlažní)",
+          "locality": "Kořenského, Praha 5 - Smíchov",
+          "price": 33000,
+          "price_czk": {
+            "value_raw": 33000,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.076118,
+            "lon": 14.407178
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Zeus-realitni-kancelar-s-r-o-Praha-Cerny-Most",
+              "id": 421,
+              "name": "Zeus realitní kancelář s.r.o.",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_H_B/u1mRYP.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 1246797900,
+          "name": "Pronájem bytu 2+kk 47 m²",
+          "locality": "Ronkova, Praha 8 - Libeň",
+          "price": 16990,
+          "price_czk": {
+            "value_raw": 16990,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.105766,
+            "lon": 14.476741
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Zeus-realitni-kancelar-s-r-o-Praha-Cerny-Most",
+              "id": 421,
+              "name": "Zeus realitní kancelář s.r.o.",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_H_B/u1mRYP.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 3295715404,
+          "name": "Pronájem bytu 3+kk 63 m²",
+          "locality": "Budečská, Praha 2 - Vinohrady",
+          "price": 25990,
+          "price_czk": {
+            "value_raw": 25990,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.073345,
+            "lon": 14.442192
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Zeus-realitni-kancelar-s-r-o-Praha-Cerny-Most",
+              "id": 421,
+              "name": "Zeus realitní kancelář s.r.o.",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_H_B/u1mRYP.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2590023756,
+          "name": "Pronájem bytu 2+1 66 m²",
+          "locality": "Drahobejlova, Praha 9 - Libeň",
+          "price": 21990,
+          "price_czk": {
+            "value_raw": 21990,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.105785,
+            "lon": 14.489647
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Zeus-realitni-kancelar-s-r-o-Praha-Cerny-Most",
+              "id": 421,
+              "name": "Zeus realitní kancelář s.r.o.",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_H_B/u1mRYP.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2560270412,
+          "name": "Pronájem bytu 3+kk 85 m²",
+          "locality": "Na Popelce, Praha 5 - Košíře",
+          "price": 33990,
+          "price_czk": {
+            "value_raw": 33990,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.07008,
+            "lon": 14.38458
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Zeus-realitni-kancelar-s-r-o-Praha-Cerny-Most",
+              "id": 421,
+              "name": "Zeus realitní kancelář s.r.o.",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_H_B/u1mRYP.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 1160097868,
+          "name": "Pronájem bytu 4+kk 124 m²",
+          "locality": "Rozmarýnová, Brandýs nad Labem-Stará Boleslav - Brandýs nad Labem",
+          "price": 28990,
+          "price_czk": {
+            "value_raw": 28990,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.172832,
+            "lon": 14.650426
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Zeus-realitni-kancelar-s-r-o-Praha-Cerny-Most",
+              "id": 421,
+              "name": "Zeus realitní kancelář s.r.o.",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_H_B/u1mRYP.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2017964108,
+          "name": "Pronájem bytu 3+kk 61 m²",
+          "locality": "Jánská, Praha 1 - Malá Strana",
+          "price": 25990,
+          "price_czk": {
+            "value_raw": 25990,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.088039,
+            "lon": 14.39744
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Zeus-realitni-kancelar-s-r-o-Praha-Cerny-Most",
+              "id": 421,
+              "name": "Zeus realitní kancelář s.r.o.",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_H_B/u1mRYP.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2939793484,
+          "name": "Pronájem bytu 1+1 39 m²",
+          "locality": "Na Výšině, Říčany",
+          "price": 17990,
+          "price_czk": {
+            "value_raw": 17990,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.990395,
+            "lon": 14.645306
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "RE-MAX-Gold-Liberec-Liberec-XI-Ruzodol-I",
+              "id": 14002,
+              "name": "RE/MAX Gold",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_F_E/cE0B13.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2337710156,
+          "name": "Pronájem bytu 3+kk 72 m²",
+          "locality": "Harrachov, okres Jablonec nad Nisou",
+          "price": 24500,
+          "price_czk": {
+            "value_raw": 24500,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.772896,
+            "lon": 15.429599
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Lexxus-Norton-Praha",
+              "id": 9003,
+              "name": "Lexxus Norton",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/lexxus.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 2592383052,
+          "name": "Prodej bytu 3+kk 60 m² (Jednopodlažní)",
+          "locality": "Kremnická, Praha 4 - Michle",
+          "price": 8890000,
+          "price_czk": {
+            "value_raw": 8890000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.048912,
+            "lon": 14.477971
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "SATPO-Praha-Smichov",
+              "id": 77482,
+              "name": "SATPO",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_p7_A/kBfrbpoeNBx1gQBYvFmHtGf/aec5.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 724190028,
+          "name": "Prodej bytu 4+kk 126 m²",
+          "locality": "Stochovská, Praha 6 - Ruzyně",
+          "price": 20190000,
+          "price_czk": {
+            "value_raw": 20190000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.082985,
+            "lon": 14.311815
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "ENGEL-VOLKERS-Praha-Smichov",
+              "id": 10628,
+              "name": "ENGEL & VÖLKERS",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QI_y/DbiKP5.png?fl=res,70,70,1,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3591876684,
+          "name": "Prodej bytu 3+kk 75 m²",
+          "locality": "Erenburgova, Olomouc - Hejčín",
+          "price": 7100000,
+          "price_czk": {
+            "value_raw": 7100000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.600471,
+            "lon": 17.23258
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Home-Real-Estate-Praha-Vinohrady",
+              "id": 14367,
+              "name": "Home Real Estate",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QN_5/QMSMz0.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 4252217420,
+          "name": "Prodej bytu 4+kk 114 m²",
+          "locality": "Olšanská, Praha 3 - Žižkov",
+          "price": 22900000,
+          "price_czk": {
+            "value_raw": 22900000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.082798,
+            "lon": 14.466343
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Bohemian-Estates-Praha-Holesovice",
+              "id": 2504,
+              "name": "Bohemian Estates",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/ccjB5L3.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 3200819276,
+          "name": "Pronájem bytu 2+kk 51 m² (Jednopodlažní)",
+          "locality": "Mladých Běchovic, Praha 9 - Běchovice",
+          "price": 20500,
+          "price_czk": {
+            "value_raw": 20500,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.08197,
+            "lon": 14.615188
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Trigema-a-s-Praha-Stodulky",
+              "id": 2995,
+              "name": "Trigema a.s.",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_gW_f/UoZMGF.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 2433523788,
+          "name": "Pronájem bytu 3+kk 77 m²",
+          "locality": "Za invalidovnou, Praha 8 - Karlín",
+          "price": 59900,
+          "price_czk": {
+            "value_raw": 59900,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.095139,
+            "lon": 14.463089
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Bohemian-Estates-Praha-Holesovice",
+              "id": 2504,
+              "name": "Bohemian Estates",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/ccjB5L3.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 1160360012,
+          "name": "Pronájem bytu 2+kk 43 m²",
+          "locality": "Víta Nejedlého, Praha 3 - Žižkov",
+          "price": 21500,
+          "price_czk": {
+            "value_raw": 21500,
+            "unit": "za měsíc",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.082676,
+            "lon": 14.449432
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 3928928332,
+          "name": "Prodej bytu 3+1 70 m²",
+          "locality": "Bellušova, Praha 5 - Stodůlky",
+          "price": 8536389,
+          "price_czk": {
+            "value_raw": 8536389,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.042049,
+            "lon": 14.322273
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Vasi-makleri-realitni-kancelar-Kutna-Hora-Kutna-Hora-Vnitrni-Mesto",
+              "id": 20385,
+              "name": "Vaši makléři - realitní kancelář",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_QL_j/OHkQ7.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 998547532,
+          "name": "Prodej bytu 4+1 90 m² (Jednopodlažní)",
+          "locality": "Na Chmelnici, Kutná Hora - Sedlec",
+          "price": 5450000,
+          "price_czk": {
+            "value_raw": 5450000,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.965416,
+            "lon": 15.290905
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "Trefoil-Reality-Praha-Liben",
+              "id": 29366,
+              "name": "Trefoil Reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_qA_A/nCTUX1iX5BWZuTh65GS0w0K/8dae.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 2519757644,
+          "name": "Prodej bytu 3+kk 73 m²",
+          "locality": "Kladno, okres Kladno",
+          "price": 2121480,
+          "price_czk": {
+            "value_raw": 2121480,
+            "unit": "",
+            "name": "Celková cena"
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.147335,
+            "lon": 14.10285
+          }
+        }
+      ],
+      "is_saved": {
+        "email_notification": false,
+        "notification_advert_count": 0,
+        "stack_id": 0,
+        "push_notification": false,
+        "_links": {
+          "self": {
+            "href": "/cs/v2/stacks"
+          }
+        },
+        "removed": false,
+        "saved": false
+      },
+      "not_precise_location_count": {
+        "result_size": 12459,
+        "_links": {
+          "self": {
+            "profile": "/estates/count/doc",
+            "href": "/cs/v2/estates/count",
+            "title": "Estate count"
+          }
+        }
+      }
+    },
+    "filterLabels": [],
+    "title": "",
+    "filter": {
+      "category_main_cb": "1",
+      "suggested_regionId": -1,
+      "suggested_districtId": -1
+    },
+    "_links": {
+      "self": {
+        "href": "/cs/v2/estates?category_main_cb=1&page=1"
+      },
+      "clusters_with_bounding_box_of_first_10": {
+        "href": "/cs/v2/clusters?category_main_cb=1&per_page=60&tms=639137743505851373&leftBottomBounding=12.861881|49.190197&rightTopBounding=17.2279|50.227982"
+      },
+      "rss": {
+        "href": "/api/cs/v2/estates/rss?category_main_cb=1&suggested_regionId=-1&suggested_districtId=-1"
+      }
+    },
+    "locality": "okres Praha 8",
+    "locality_dativ": "na Praze 8",
+    "logged_in": false,
+    "per_page": 60,
+    "category_instrumental": "bytu",
+    "page": 1,
+    "filterLabels2": {
+      "something_more3_3310": "elevator",
+      "something_more1_3120": "cellar",
+      "something_more1_3100": "loggia",
+      "furnished_1": "furnished",
+      "furnished_2": "partly_furnished",
+      "furnished_3": "not_furnished",
+      "building_condition_9": "after_reconstruction",
+      "something_more2_3150": "garage",
+      "something_more2_3130": "basin",
+      "ownership_1": "personal",
+      "ownership_3": "state",
+      "ownership_2": "collective",
+      "something_more3_1820": "easy_access",
+      "energy_efficiency_rating_search_7": "energy_rating_g",
+      "energy_efficiency_rating_search_6": "energy_rating_f",
+      "energy_efficiency_rating_search_5": "energy_rating_e",
+      "energy_efficiency_rating_search_4": "energy_rating_d",
+      "energy_efficiency_rating_search_3": "energy_rating_c",
+      "energy_efficiency_rating_search_2": "energy_rating_b",
+      "energy_efficiency_rating_search_1": "energy_rating_a",
+      "something_more1_3110": "terrace",
+      "building_condition_6": "new_building",
+      "something_more1_3090": "balcony",
+      "building_condition_4": "in_construction",
+      "building_type_search_3": "other_sigular",
+      "something_more2_3120": "cellar",
+      "building_type_search_1": "panel",
+      "something_more2_3140": "parking_lots",
+      "something_more1_200222": "garden",
+      "building_type_search_2": "brick"
+    }
+  }
+}
