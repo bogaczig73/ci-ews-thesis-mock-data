@@ -9,17 +9,28 @@ export default function AgenciesPage() {
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(true);
   const [editing, setEditing] = useState(null);
+  const [page, setPage] = useState(1);
+  const [pg, setPg] = useState({ page: 1, per_page: 5, total: 0, total_pages: 1, has_prev: false, has_next: false });
 
   async function load() {
     setLoading(true);
-    setRows(await fetch('/api/agencies').then((r) => r.json()));
+    // Paginated mode (per_page capped at 5 server-side) — simulates a real companies API.
+    const res = await fetch(`/api/agencies?page=${page}`).then((r) => r.json());
+    setRows(res.data ?? []);
+    setPg(res.pagination ?? { page: 1, per_page: 5, total: (res.data ?? []).length, total_pages: 1, has_prev: false, has_next: false });
     setLoading(false);
   }
-  useEffect(() => { load(); }, []);
+  useEffect(() => { load(); /* eslint-disable-next-line */ }, [page]);
+
+  // If the current page emptied out (e.g. after a delete), step back.
+  useEffect(() => { if (!loading && rows.length === 0 && page > 1) setPage((p) => p - 1); }, [loading, rows, page]);
+
+  const from = pg.total === 0 ? 0 : (pg.page - 1) * pg.per_page + 1;
+  const to = (pg.page - 1) * pg.per_page + rows.length;
 
   return (
     <div className="space-y-5">
-      <PageHeader title="Agencies" subtitle="Sreality" count={rows.length}
+      <PageHeader title="Agencies" subtitle="Sreality" count={pg.total}
         action={<button onClick={() => setEditing(empty)} className="btn btn-primary"><Icon.plus className="w-4 h-4" /> New agency</button>} />
 
       {loading ? <Skeleton /> : (
@@ -40,6 +51,18 @@ export default function AgenciesPage() {
                 {rows.length === 0 && <tr><td colSpan={5} className="text-center text-slate-400 py-10">No agencies yet.</td></tr>}
               </tbody>
             </table>
+          </div>
+
+          <div className="flex items-center justify-between gap-3 px-4 py-3 border-t border-slate-100 text-sm">
+            <span className="text-slate-500">
+              {from}–{to} of {pg.total} · page {pg.page}/{pg.total_pages} · {pg.per_page}/page
+            </span>
+            <div className="flex items-center gap-2">
+              <button onClick={() => setPage((p) => Math.max(p - 1, 1))} disabled={!pg.has_prev}
+                className="btn btn-soft text-xs disabled:opacity-40 disabled:cursor-not-allowed">Prev</button>
+              <button onClick={() => setPage((p) => p + 1)} disabled={!pg.has_next}
+                className="btn btn-soft text-xs disabled:opacity-40 disabled:cursor-not-allowed">Next</button>
+            </div>
           </div>
         </div>
       )}
