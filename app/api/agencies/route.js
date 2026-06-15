@@ -17,7 +17,7 @@ export async function GET(request) {
   const shape = (a) => ({
     id: a.id,
     name: a.name,
-    locality: localities[a.id] ?? null,
+    locality: a.locality ?? localities[a.id] ?? null,
     url: a.url,
     num_adverts: counts[a.id] ?? 0,
   });

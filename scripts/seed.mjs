@@ -138,6 +138,8 @@ async function main() {
   await sql`CREATE INDEX IF NOT EXISTS cnb_omo_trade_date_idx ON cnb_omo (trade_date)`;
   // ICO lives only on the agency detail, not in the list.
   await sql`ALTER TABLE agencies ADD COLUMN IF NOT EXISTS ico text`;
+  // Optional manual locality override; falls back to the derived city when null.
+  await sql`ALTER TABLE agencies ADD COLUMN IF NOT EXISTS locality text`;
 
   console.log('Clearing existing data…');
   await sql`DELETE FROM rss_items`;

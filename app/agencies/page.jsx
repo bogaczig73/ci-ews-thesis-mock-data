@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Icon } from '../_components/icons.jsx';
 import { PageHeader, Modal, Field, ErrBox, Skeleton } from '../_components/ui.jsx';
 
-const empty = { id: '', name: '', url: '', logo_small: '' };
+const empty = { id: '', name: '', url: '', logo_small: '', locality: '' };
 
 export default function AgenciesPage() {
   const [rows, setRows] = useState([]);
@@ -106,6 +106,7 @@ function AgencyModal({ agency, onClose, onSaved }) {
       <div className="space-y-3">
         <Field label="id"><input disabled={!creating} value={form.id} onChange={(e) => set('id', e.target.value)} className="inp" /></Field>
         <Field label="name"><input value={form.name ?? ''} onChange={(e) => set('name', e.target.value)} className="inp" /></Field>
+        <Field label="locality"><input value={form.locality ?? ''} onChange={(e) => set('locality', e.target.value)} placeholder="leave empty to auto-derive from listings" className="inp" /></Field>
         <Field label="url / slug"><input value={form.url ?? ''} onChange={(e) => set('url', e.target.value)} className="inp" /></Field>
         <Field label="logo_small"><input value={form.logo_small ?? ''} onChange={(e) => set('logo_small', e.target.value)} className="inp" /></Field>
       </div>
