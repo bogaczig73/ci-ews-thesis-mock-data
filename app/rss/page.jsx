@@ -6,6 +6,7 @@ import { PageHeader, Modal, Field, Skeleton } from '../_components/ui.jsx';
 const SOURCES = [
   ['psp', 'PSP.cz', 'bg-blue-500', 'ring-blue-200 text-blue-700 bg-blue-50'],
   ['mmr', 'MMR', 'bg-amber-500', 'ring-amber-200 text-amber-700 bg-amber-50'],
+  ['mmr_novinky', 'MMR Novinky', 'bg-orange-500', 'ring-orange-200 text-orange-700 bg-orange-50'],
   ['csu', 'ČSÚ', 'bg-violet-500', 'ring-violet-200 text-violet-700 bg-violet-50'],
   ['cnb', 'ČNB', 'bg-rose-500', 'ring-rose-200 text-rose-700 bg-rose-50'],
 ];
@@ -50,7 +51,7 @@ export default function RssPage() {
 
   return (
     <div className="space-y-5">
-      <PageHeader title="RSS feeds" subtitle="PSP · MMR · ČSÚ · ČNB"
+      <PageHeader title="RSS feeds" subtitle="PSP · MMR · MMR Novinky · ČSÚ · ČNB"
         action={<button onClick={() => setEditing({ ...emptyItem })} className="btn btn-primary"><Icon.plus className="w-4 h-4" /> New item</button>} />
 
       <div className="flex items-center gap-2 flex-wrap">

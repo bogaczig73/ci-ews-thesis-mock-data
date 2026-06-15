@@ -84,9 +84,20 @@ const pspChannel = {
 
 const mmrChannel = {
   source: 'mmr',
-  title: 'MMR — Novinky',
+  title: 'Všechny aktualizace portálu Ministerstvo pro místní rozvoj',
+  link: 'https://mmr.gov.cz/cs/ostatni/web/rss?rss=AllPageFefed',
+  description: 'Všechny aktualizace portálu Ministerstvo pro místní rozvoj',
+  language: 'cs-CZ',
+  self_url: 'https://mmr.gov.cz/cs/ostatni/web/rss?rss=AllPageFefed',
+  copyright: null,
+  webmaster: null,
+};
+
+const mmrNovinkyChannel = {
+  source: 'mmr_novinky',
+  title: 'Novinky',
   link: 'https://mmr.gov.cz/cs/ostatni/web/rss?rss=Novinky',
-  description: 'Novinky Ministerstva pro místní rozvoj.',
+  description: 'Novinky',
   language: 'cs-CZ',
   self_url: 'https://mmr.gov.cz/cs/ostatni/web/rss?rss=Novinky',
   copyright: null,
@@ -96,6 +107,24 @@ const mmrChannel = {
 // ---- Seed routine ------------------------------------------------------
 
 async function main() {
+  // ČNB CNB API tables are created here so a fresh DB seeds cleanly.
+  await sql`CREATE TABLE IF NOT EXISTS cnb_pribor (
+    id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    valid_for date NOT NULL, period text NOT NULL, pribid text, pribor numeric NOT NULL,
+    UNIQUE (valid_for, period))`;
+  await sql`CREATE INDEX IF NOT EXISTS cnb_pribor_valid_for_idx ON cnb_pribor (valid_for)`;
+  await sql`CREATE TABLE IF NOT EXISTS cnb_omo (
+    id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    operation_type text NOT NULL, liquidity_impact text, trade_date date NOT NULL,
+    settlement_date date, maturity_date date, marginal_rate_in_percent numeric,
+    total_bid_volume_in_czk_bln numeric, total_number_of_bids integer,
+    minimum_bid_rate_in_percent numeric, average_bid_rate_in_percent numeric,
+    maximum_bid_rate_in_percent numeric, total_alloted_volume_in_czk_bln numeric,
+    total_number_of_alloted_bids integer, minimum_alloted_rate_in_percent numeric,
+    average_alloted_rate_in_percent numeric, maximum_alloted_rate_in_percent numeric,
+    allotment_percentage numeric)`;
+  await sql`CREATE INDEX IF NOT EXISTS cnb_omo_trade_date_idx ON cnb_omo (trade_date)`;
+
   console.log('Clearing existing data…');
   await sql`DELETE FROM rss_items`;
   await sql`DELETE FROM rss_channels`;
@@ -103,6 +132,8 @@ async function main() {
   await sql`DELETE FROM agencies`;
   await sql`DELETE FROM sellers`;
   await sql`DELETE FROM economic_subjects`;
+  await sql`DELETE FROM cnb_pribor`;
+  await sql`DELETE FROM cnb_omo`;
 
   // --- Sreality: agencies + listings ---
   const estates = readJson('estates.json').body._embedded.estates;
@@ -136,6 +167,7 @@ async function main() {
   const feeds = [
     { channel: pspChannel, items: parseItems(readPspXml()) },
     { channel: mmrChannel, items: parseItems(read('mmr_rss.xml')) },
+    { channel: mmrNovinkyChannel, items: parseItems(read('mmr_novinky_rss.xml')) },
     { channel: csu.channel, items: csu.items },
     { channel: cnb.channel, items: cnb.items },
   ];
@@ -162,6 +194,28 @@ async function main() {
         ${s.nace ?? []}, ${s.financni_urad ?? null}, ${s.is_active ?? true})`;
   }
   console.log(`ARES: ${subjects.length} economic subjects.`);
+
+  // --- ČNB CNB API: PRIBOR + open-market operations ---
+  const cnbApi = readJson('cnb_cnbapi.json');
+  for (const p of cnbApi.pribor) {
+    await sql`INSERT INTO cnb_pribor (valid_for, period, pribid, pribor)
+      VALUES (${p.validFor}, ${p.period}, ${p.pribid ?? null}, ${p.pribor})`;
+  }
+  for (const o of cnbApi.omo) {
+    await sql`INSERT INTO cnb_omo (operation_type, liquidity_impact, trade_date, settlement_date,
+      maturity_date, marginal_rate_in_percent, total_bid_volume_in_czk_bln, total_number_of_bids,
+      minimum_bid_rate_in_percent, average_bid_rate_in_percent, maximum_bid_rate_in_percent,
+      total_alloted_volume_in_czk_bln, total_number_of_alloted_bids, minimum_alloted_rate_in_percent,
+      average_alloted_rate_in_percent, maximum_alloted_rate_in_percent, allotment_percentage)
+      VALUES (${o.operationType}, ${o.liquidityImpact ?? null}, ${o.tradeDate}, ${o.settlementDate ?? null},
+        ${o.maturityDate ?? null}, ${o.marginalRateInPercent ?? null}, ${o.totalBidVolumeInCZKbln ?? null},
+        ${o.totalNumberOfBids ?? null}, ${o.minimumBidRateInPercent ?? null}, ${o.averageBidRateInPercent ?? null},
+        ${o.maximumBidRateInPercent ?? null}, ${o.totalAllotedVolumeInCZKbln ?? null},
+        ${o.totalNumberOfAllotedBids ?? null}, ${o.minimumAllotedRateInPercent ?? null},
+        ${o.averageAllotedRateInPercent ?? null}, ${o.maximumAllotedRateInPercent ?? null},
+        ${o.allotmentPercentage ?? null})`;
+  }
+  console.log(`ČNB CNB API: ${cnbApi.pribor.length} PRIBOR rows, ${cnbApi.omo.length} OMO ops.`);
 
   console.log('\nSeed complete.');
 }
