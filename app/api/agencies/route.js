@@ -22,14 +22,19 @@ export async function GET(request) {
     return Response.json(agencies.map(withCount));
   }
 
-  // Paginated mode → envelope with metadata, per_page capped at 5.
+  // Paginated mode → OData-shaped envelope, per_page capped at 5.
+  // Power Automate's native HTTP pagination requires the array under `value`
+  // and the next page URL under `@odata.nextLink` (absent on the last page).
   const perPage = Math.min(Math.max(toInt(searchParams.get('per_page')) ?? PER_PAGE_CAP, 1), PER_PAGE_CAP);
   const page = Math.max(toInt(searchParams.get('page')) ?? 1, 1);
   const { rows, total } = await getAgenciesPage({ page, perPage });
   const totalPages = Math.max(Math.ceil(total / perPage), 1);
+  const data = rows.map(withCount);
 
-  return Response.json({
-    data: rows.map(withCount),
+  const out = {
+    value: data, // OData array — required by Power Automate pagination
+    '@odata.count': total,
+    data, // kept for the admin UI
     pagination: {
       page,
       per_page: perPage,
@@ -38,7 +43,15 @@ export async function GET(request) {
       has_prev: page > 1,
       has_next: page < totalPages,
     },
-  });
+  };
+  if (page < totalPages) {
+    const next = new URL(request.url);
+    next.searchParams.set('page', String(page + 1));
+    next.searchParams.set('per_page', String(perPage));
+    out['@odata.nextLink'] = next.toString(); // absolute URL to next page
+  }
+
+  return Response.json(out);
 }
 
 export async function POST(request) {
