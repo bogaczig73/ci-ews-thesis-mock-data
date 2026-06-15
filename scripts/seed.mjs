@@ -25,6 +25,18 @@ const sql = neon(process.env.DATABASE_URL);
 const read = (f) => readFileSync(path.join(dataDir, f), 'utf8');
 const readJson = (f) => JSON.parse(read(f));
 
+// Deterministic, valid 8-digit Czech IČO derived from a company id
+// (7-digit base + mod-11 check digit). Stable across reseeds.
+function ico(id) {
+  const n = (Math.abs(Number(id)) * 2654435761) >>> 0;
+  const base = String(1000000 + (n % 9000000)); // 7 digits, first non-zero
+  const w = [8, 7, 6, 5, 4, 3, 2];
+  let sum = 0;
+  for (let i = 0; i < 7; i++) sum += Number(base[i]) * w[i];
+  const check = (11 - (sum % 11)) % 10;
+  return base + check;
+}
+
 // ---- RSS parsing helpers ----------------------------------------------
 
 function decodeEntities(s) {
@@ -124,6 +136,8 @@ async function main() {
     average_alloted_rate_in_percent numeric, maximum_alloted_rate_in_percent numeric,
     allotment_percentage numeric)`;
   await sql`CREATE INDEX IF NOT EXISTS cnb_omo_trade_date_idx ON cnb_omo (trade_date)`;
+  // ICO lives only on the agency detail, not in the list.
+  await sql`ALTER TABLE agencies ADD COLUMN IF NOT EXISTS ico text`;
 
   console.log('Clearing existing data…');
   await sql`DELETE FROM rss_items`;
@@ -143,8 +157,8 @@ async function main() {
     if (c && !agencies.has(c.id)) agencies.set(c.id, c);
   }
   for (const c of agencies.values()) {
-    await sql`INSERT INTO agencies (id, name, url, logo_small)
-      VALUES (${c.id}, ${c.name}, ${c.url ?? null}, ${c.logo_small ?? null})`;
+    await sql`INSERT INTO agencies (id, name, url, logo_small, ico)
+      VALUES (${c.id}, ${c.name}, ${c.url ?? null}, ${c.logo_small ?? null}, ${ico(c.id)})`;
   }
   for (const e of estates) {
     await sql`INSERT INTO listings (hash_id, company_id, category, type, name, locality, price,
