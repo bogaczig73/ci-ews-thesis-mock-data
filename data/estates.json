@@ -1764,6 +1764,1456 @@
             "lat": 50.147335,
             "lon": 14.10285
           }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000001,
+          "name": "Pronájem bytu 2+1 69 m²",
+          "locality": "Sokolovská, Praha 8 - Karlín",
+          "price": 42200,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 42200
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.096404,
+            "lon": 14.454291
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000002,
+          "name": "Prodej bytu 4+kk 96 m²",
+          "locality": "Nuselská, Praha 4 - Nusle",
+          "price": 14583000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 14583000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.061799,
+            "lon": 14.434101
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000003,
+          "name": "Prodej bytu 3+kk 84 m²",
+          "locality": "Dejvická, Praha 6 - Dejvice",
+          "price": 11811000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 11811000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.099879,
+            "lon": 14.39422
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 2,
+          "hash_id": 9001000004,
+          "name": "Pronájem rodinného domu 111 m²",
+          "locality": "Vršovická, Praha 10 - Vršovice",
+          "price": 53600,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 53600
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 1,
+          "region_tip": 0,
+          "new": true,
+          "gps": {
+            "lat": 50.068521,
+            "lon": 14.462012
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000005,
+          "name": "Pronájem bytu 2+kk 50 m²",
+          "locality": "Nádražní, Praha 5 - Smíchov",
+          "price": 28100,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 28100
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.068143,
+            "lon": 14.413705
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000006,
+          "name": "Prodej bytu 3+1 83 m²",
+          "locality": "Vinohradská, Praha 2 - Vinohrady",
+          "price": 11351000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 11351000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.074817,
+            "lon": 14.439103
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000007,
+          "name": "Pronájem bytu 1+kk 34 m²",
+          "locality": "Sokolovská, Praha 9 - Vysočany",
+          "price": 19500,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 19500
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": true,
+          "gps": {
+            "lat": 50.112273,
+            "lon": 14.495149
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000008,
+          "name": "Prodej rodinného domu 167 m²",
+          "locality": "Sokolská, Praha 2 - Nové Město",
+          "price": 12578000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 12578000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": true,
+          "gps": {
+            "lat": 50.076322,
+            "lon": 14.425063
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000009,
+          "name": "Prodej rodinného domu 255 m²",
+          "locality": "Dejvická, Praha 6 - Dejvice",
+          "price": 20513000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 20513000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 1,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.097107,
+            "lon": 14.388234
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000010,
+          "name": "Prodej bytu 3+kk 83 m²",
+          "locality": "Vršovická, Praha 10 - Vršovice",
+          "price": 13643000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 13643000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.068595,
+            "lon": 14.457454
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000011,
+          "name": "Prodej rodinného domu 210 m²",
+          "locality": "Zenklova, Praha 8 - Libeň",
+          "price": 26423000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 26423000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.108808,
+            "lon": 14.468266
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000012,
+          "name": "Prodej rodinného domu 185 m²",
+          "locality": "Sokolovská, Praha 9 - Vysočany",
+          "price": 9875000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 9875000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": true,
+          "gps": {
+            "lat": 50.110031,
+            "lon": 14.505436
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 2,
+          "hash_id": 9001000013,
+          "name": "Pronájem rodinného domu 208 m²",
+          "locality": "Veletržní, Praha 7 - Holešovice",
+          "price": 60100,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 60100
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.0993,
+            "lon": 14.438243
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000014,
+          "name": "Prodej bytu 2+kk 55 m²",
+          "locality": "Ječná, Praha 2 - Nové Město",
+          "price": 7973000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 7973000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.07841,
+            "lon": 14.430187
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000015,
+          "name": "Prodej bytu 3+kk 65 m²",
+          "locality": "Dejvická, Praha 6 - Dejvice",
+          "price": 7596000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 7596000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.098606,
+            "lon": 14.392159
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000016,
+          "name": "Pronájem bytu 4+kk 95 m²",
+          "locality": "Sokolská, Praha 2 - Nové Město",
+          "price": 25700,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 25700
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.073329,
+            "lon": 14.434224
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000017,
+          "name": "Prodej bytu 1+kk 35 m²",
+          "locality": "Vinohradská, Praha 2 - Vinohrady",
+          "price": 5722000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 5722000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.071657,
+            "lon": 14.432908
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000018,
+          "name": "Prodej rodinného domu 186 m²",
+          "locality": "Sokolovská, Praha 9 - Vysočany",
+          "price": 9955000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 9955000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 1,
+          "region_tip": 0,
+          "new": true,
+          "gps": {
+            "lat": 50.110329,
+            "lon": 14.503324
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000019,
+          "name": "Prodej bytu 4+1 102 m²",
+          "locality": "Sokolovská, Praha 9 - Vysočany",
+          "price": 15849000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 15849000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.107186,
+            "lon": 14.495799
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000020,
+          "name": "Pronájem bytu 2+kk 56 m²",
+          "locality": "Vršovická, Praha 10 - Vršovice",
+          "price": 20100,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 20100
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.069636,
+            "lon": 14.452945
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000021,
+          "name": "Prodej rodinného domu 177 m²",
+          "locality": "Starostrašnická, Praha 10 - Strašnice",
+          "price": 23628000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 23628000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.078148,
+            "lon": 14.482519
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000022,
+          "name": "Pronájem bytu 2+kk 55 m²",
+          "locality": "Nádražní, Praha 5 - Smíchov",
+          "price": 40200,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 40200
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.065493,
+            "lon": 14.406664
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000023,
+          "name": "Prodej bytu 3+1 79 m²",
+          "locality": "Starostrašnická, Praha 10 - Strašnice",
+          "price": 11768000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 11768000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.070826,
+            "lon": 14.488716
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000024,
+          "name": "Prodej bytu 3+kk 77 m²",
+          "locality": "Štefánikova, Praha 5 - Smíchov",
+          "price": 11023000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 11023000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.068483,
+            "lon": 14.399314
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000025,
+          "name": "Prodej bytu 2+1 65 m²",
+          "locality": "Dejvická, Praha 6 - Dejvice",
+          "price": 9097000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 9097000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.097209,
+            "lon": 14.394482
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000026,
+          "name": "Pronájem bytu 3+kk 67 m²",
+          "locality": "Nuselská, Praha 4 - Nusle",
+          "price": 39000,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 39000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.056845,
+            "lon": 14.434895
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000027,
+          "name": "Pronájem bytu 3+kk 84 m²",
+          "locality": "Jeremenkova, Praha 4 - Podolí",
+          "price": 16300,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 16300
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.04252,
+            "lon": 14.426494
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000028,
+          "name": "Pronájem bytu 4+1 122 m²",
+          "locality": "Křižíkova, Praha 8 - Karlín",
+          "price": 35600,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 35600
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.088428,
+            "lon": 14.450352
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 2,
+          "hash_id": 9001000029,
+          "name": "Pronájem rodinného domu 182 m²",
+          "locality": "Křižíkova, Praha 8 - Karlín",
+          "price": 42000,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 42000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 1,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.094222,
+            "lon": 14.451033
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000030,
+          "name": "Prodej rodinného domu 165 m²",
+          "locality": "Jeremenkova, Praha 4 - Podolí",
+          "price": 21099000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 21099000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 1,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.041592,
+            "lon": 14.420837
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 2,
+          "hash_id": 9001000031,
+          "name": "Pronájem rodinného domu 115 m²",
+          "locality": "Korunní, Praha 2 - Vinohrady",
+          "price": 86000,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 86000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.075154,
+            "lon": 14.439646
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000032,
+          "name": "Pronájem bytu 2+kk 57 m²",
+          "locality": "Veletržní, Praha 7 - Holešovice",
+          "price": 37500,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 37500
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": true,
+          "gps": {
+            "lat": 50.097346,
+            "lon": 14.435247
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000033,
+          "name": "Prodej bytu 2+1 55 m²",
+          "locality": "Bělehradská, Praha 2 - Nové Město",
+          "price": 6708000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 6708000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.07078,
+            "lon": 14.42887
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000034,
+          "name": "Prodej bytu 2+kk 50 m²",
+          "locality": "Dejvická, Praha 6 - Dejvice",
+          "price": 7995000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 7995000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.099876,
+            "lon": 14.391102
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000035,
+          "name": "Prodej bytu 4+kk 103 m²",
+          "locality": "Korunní, Praha 2 - Vinohrady",
+          "price": 11858000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 11858000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.077454,
+            "lon": 14.448386
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000036,
+          "name": "Prodej bytu 3+1 76 m²",
+          "locality": "Jeremenkova, Praha 4 - Podolí",
+          "price": 9705000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 9705000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.047989,
+            "lon": 14.42249
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000037,
+          "name": "Prodej bytu 1+kk 33 m²",
+          "locality": "Křižíkova, Praha 8 - Karlín",
+          "price": 4064000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 4064000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.092995,
+            "lon": 14.452814
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000038,
+          "name": "Prodej bytu 3+kk 67 m²",
+          "locality": "Nuselská, Praha 4 - Nusle",
+          "price": 9537000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 9537000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.058007,
+            "lon": 14.441067
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000039,
+          "name": "Pronájem bytu 3+1 87 m²",
+          "locality": "Štefánikova, Praha 5 - Smíchov",
+          "price": 37200,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 37200
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 1,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.07256,
+            "lon": 14.403821
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000040,
+          "name": "Pronájem bytu 2+kk 52 m²",
+          "locality": "Korunní, Praha 2 - Vinohrady",
+          "price": 34700,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 34700
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.079632,
+            "lon": 14.449611
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000041,
+          "name": "Prodej rodinného domu 129 m²",
+          "locality": "Veveří, Brno - Veveří",
+          "price": 13013000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 13013000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.204788,
+            "lon": 16.589245
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000042,
+          "name": "Prodej bytu 2+1 65 m²",
+          "locality": "Palackého třída, Brno - Královo Pole",
+          "price": 3990000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 3990000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.225898,
+            "lon": 16.58693
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 2,
+          "hash_id": 9001000043,
+          "name": "Pronájem rodinného domu 203 m²",
+          "locality": "Nádražní, Ostrava - Moravská Ostrava",
+          "price": 22700,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 22700
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.837595,
+            "lon": 18.292966
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000044,
+          "name": "Prodej bytu 2+kk 58 m²",
+          "locality": "Klatovská třída, Plzeň - Jižní Předměstí",
+          "price": 3608000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 3608000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.736307,
+            "lon": 13.367284
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000045,
+          "name": "Prodej bytu 2+1 59 m²",
+          "locality": "Brněnská, Olomouc - Nová Ulice",
+          "price": 5287000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 5287000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.588885,
+            "lon": 17.242417
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000046,
+          "name": "Prodej rodinného domu 272 m²",
+          "locality": "Pražská, Liberec - Liberec III-Jeřáb",
+          "price": 7983000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 7983000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": true,
+          "gps": {
+            "lat": 50.760147,
+            "lon": 15.049946
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000047,
+          "name": "Prodej rodinného domu 254 m²",
+          "locality": "Lannova třída, České Budějovice - České Budějovice 3",
+          "price": 12950000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 12950000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": true,
+          "gps": {
+            "lat": 48.979411,
+            "lon": 14.477391
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 2,
+          "hash_id": 9001000048,
+          "name": "Pronájem bytu 3+kk 80 m²",
+          "locality": "Gočárova třída, Hradec Králové - Pražské Předměstí",
+          "price": 25400,
+          "price_czk": {
+            "name": "Cena za měsíc",
+            "unit": "za měsíc",
+            "value_raw": 25400
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 50.206699,
+            "lon": 15.827597
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 1,
+          "type": 1,
+          "hash_id": 9001000049,
+          "name": "Prodej bytu 3+kk 68 m²",
+          "locality": "Sladkovského, Pardubice - Zelené Předměstí",
+          "price": 4224000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 4224000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 0,
+          "region_tip": 0,
+          "new": true,
+          "gps": {
+            "lat": 50.03798,
+            "lon": 15.777629
+          }
+        },
+        {
+          "_embedded": {
+            "company": {
+              "url": "M-M-reality-Praha",
+              "id": 9001,
+              "name": "M&M reality",
+              "logo_small": "https://d48-a.sdn.cz/d_48/c_img_G_C/mmreality.png?fl=res,140,140,3,ffffff"
+            }
+          },
+          "category": 2,
+          "type": 1,
+          "hash_id": 9001000050,
+          "name": "Prodej rodinného domu 165 m²",
+          "locality": "třída Tomáše Bati, Zlín - Zlín",
+          "price": 7823000,
+          "price_czk": {
+            "name": "Celková cena",
+            "unit": "",
+            "value_raw": 7823000
+          },
+          "auctionPrice": 0,
+          "attractive_offer": 1,
+          "region_tip": 0,
+          "new": false,
+          "gps": {
+            "lat": 49.219351,
+            "lon": 17.661112
+          }
         }
       ],
       "is_saved": {
