@@ -1,4 +1,4 @@
-import { getAgencies, getAgenciesPage, createAgency, agencyListingCounts } from '@/lib/listings.js';
+import { getAgencies, getAgenciesPage, createAgency, agencyListingCounts, agencyLocalities } from '@/lib/listings.js';
 
 export const dynamic = 'force-dynamic';
 
@@ -13,13 +13,20 @@ const toInt = (v) => {
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
-  const counts = await agencyListingCounts();
-  const withCount = (a) => ({ ...a, listing_count: counts[a.id] ?? 0 });
+  const [counts, localities] = await Promise.all([agencyListingCounts(), agencyLocalities()]);
+  const shape = (a) => ({
+    id: a.id,
+    name: a.name,
+    locality: localities[a.id] ?? null,
+    url: a.url,
+    num_adverts: counts[a.id] ?? 0,
+    logo_small: a.logo_small,
+  });
 
   // No paging params → full array (back-compatible; used by the listings name map).
   if (!searchParams.has('page') && !searchParams.has('per_page')) {
     const agencies = await getAgencies();
-    return Response.json(agencies.map(withCount));
+    return Response.json(agencies.map(shape));
   }
 
   // Paginated mode → clean REST envelope, per_page capped at 5. Consumers drive
@@ -31,7 +38,7 @@ export async function GET(request) {
   const totalPages = Math.max(Math.ceil(total / perPage), 1);
 
   return Response.json({
-    data: rows.map(withCount),
+    data: rows.map(shape),
     pagination: {
       page,
       per_page: perPage,

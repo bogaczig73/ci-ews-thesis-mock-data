@@ -37,18 +37,19 @@ export default function AgenciesPage() {
         <div className="card overflow-hidden">
           <div className="overflow-x-auto">
             <table className="tbl">
-              <thead><tr><th>id</th><th>Name</th><th>Slug / URL</th><th>Listings</th><th></th></tr></thead>
+              <thead><tr><th>id</th><th>Name</th><th>Locality</th><th>Slug / URL</th><th>Adverts</th><th></th></tr></thead>
               <tbody>
                 {rows.map((a) => (
                   <tr key={a.id}>
                     <td className="font-mono text-xs text-slate-400">{a.id}</td>
                     <td className="font-medium text-slate-800">{a.name}</td>
+                    <td className="text-slate-500">{a.locality ?? '—'}</td>
                     <td className="text-slate-500">{a.url}</td>
-                    <td><span className="badge bg-emerald-50 text-emerald-700">{a.listing_count}</span></td>
+                    <td><span className="badge bg-emerald-50 text-emerald-700">{a.num_adverts}</span></td>
                     <td className="text-right"><button onClick={() => setEditing(a)} className="text-slate-400 hover:text-indigo-600 font-medium">Edit</button></td>
                   </tr>
                 ))}
-                {rows.length === 0 && <tr><td colSpan={5} className="text-center text-slate-400 py-10">No agencies yet.</td></tr>}
+                {rows.length === 0 && <tr><td colSpan={6} className="text-center text-slate-400 py-10">No agencies yet.</td></tr>}
               </tbody>
             </table>
           </div>
