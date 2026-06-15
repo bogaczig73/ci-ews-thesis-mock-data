@@ -20,7 +20,6 @@ export async function GET(request) {
     locality: localities[a.id] ?? null,
     url: a.url,
     num_adverts: counts[a.id] ?? 0,
-    logo_small: a.logo_small,
   });
 
   // No paging params → full array (back-compatible; used by the listings name map).
