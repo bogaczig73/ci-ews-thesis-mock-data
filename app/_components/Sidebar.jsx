@@ -10,6 +10,7 @@ const nav = [
   { href: '/sellers', label: 'Sellers', icon: 'user', tag: 'Sreality' },
   { href: '/rss', label: 'RSS feeds', icon: 'rss', tag: 'PSP·MMR·ČSÚ·ČNB' },
   { href: '/ares', label: 'ARES', icon: 'briefcase', tag: 'Registry' },
+  { href: '/cnb', label: 'ČNB rates', icon: 'db', tag: 'PRIBOR·OMO' },
   { href: '/api-docs', label: 'API reference', icon: 'code' },
 ];
 

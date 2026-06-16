@@ -19,16 +19,19 @@ const FEEDS = [
 ];
 
 export default async function HomePage() {
-  const [listings, agencies, sellers, ares, rss] = await Promise.all([
+  const [listings, agencies, sellers, ares, rss, pribor, omo] = await Promise.all([
     sql`SELECT count(*)::int AS n FROM listings`,
     sql`SELECT count(*)::int AS n FROM agencies`,
     sql`SELECT count(*)::int AS n FROM sellers`,
     sql`SELECT count(*)::int AS n FROM economic_subjects`,
     sql`SELECT source, count(*)::int AS n FROM rss_items GROUP BY source`,
+    sql`SELECT count(*)::int AS n FROM cnb_pribor`,
+    sql`SELECT count(*)::int AS n FROM cnb_omo`,
   ]);
   const counts = { listings: listings[0].n, agencies: agencies[0].n, sellers: sellers[0].n, ares: ares[0].n };
   const rssCounts = Object.fromEntries(rss.map((r) => [r.source, r.n]));
   const rssTotal = rss.reduce((a, r) => a + r.n, 0);
+  const cnb = { pribor: pribor[0].n, omo: omo[0].n };
 
   return (
     <div className="space-y-8">
@@ -98,6 +101,29 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ČNB rates */}
+      <section>
+        <h2 className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">ČNB rates</h2>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <Link href="/cnb" className="card card-hover p-5 ring-1 ring-rose-100">
+            <div className="grid place-items-center w-11 h-11 rounded-xl bg-gradient-to-br from-rose-500 to-pink-600 text-white shadow-sm">
+              <Icon.db className="w-5 h-5" />
+            </div>
+            <div className="text-3xl font-bold mt-4 tabular-nums">{cnb.pribor}</div>
+            <div className="text-sm font-medium text-slate-700">PRIBOR fixings</div>
+            <div className="text-xs text-slate-400">/cnbapi/pribor/daily</div>
+          </Link>
+          <Link href="/cnb" className="card card-hover p-5 ring-1 ring-rose-100">
+            <div className="grid place-items-center w-11 h-11 rounded-xl bg-gradient-to-br from-rose-500 to-pink-600 text-white shadow-sm">
+              <Icon.db className="w-5 h-5" />
+            </div>
+            <div className="text-3xl font-bold mt-4 tabular-nums">{cnb.omo}</div>
+            <div className="text-sm font-medium text-slate-700">Open-market ops</div>
+            <div className="text-xs text-slate-400">/cnbapi/omo/daily</div>
+          </Link>
+        </div>
+      </section>
+
       {/* Endpoints */}
       <section className="card p-6">
         <h2 className="font-semibold flex items-center gap-2">
@@ -111,6 +137,8 @@ export default async function HomePage() {
             ['GET', '/rss/psp · /rss/mmr · /rss/csu · /rss/cnb'],
             ['POST', '/ekonomicke-subjekty-v-be/rest/.../vyhledat'],
             ['GET', '/ekonomicke-subjekty-v-be/rest/.../27531241'],
+            ['GET', '/cnbapi/pribor/daily?date=2026-06-03'],
+            ['GET', '/cnbapi/omo/daily'],
           ].map(([m, path]) => (
             <div key={path} className="flex items-center gap-2.5 py-1">
               <span className={`badge font-mono ${m === 'GET' ? 'bg-emerald-50 text-emerald-700' : 'bg-amber-50 text-amber-700'}`}>{m}</span>

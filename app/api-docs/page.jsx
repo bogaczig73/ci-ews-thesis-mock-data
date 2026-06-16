@@ -55,6 +55,11 @@ export default function ApiDocs() {
           <Row m="GET" path="/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/{ico}" />
         </Section>
 
+        <Section icon="db" title="ČNB (JSON REST)" accent="bg-rose-100 text-rose-700">
+          <Row m="GET" path="/cnbapi/pribor/daily" note="PRIBOR fixings · filters: from, to (YYYY-MM-DD) · date= shorthand for a single day" />
+          <Row m="GET" path="/cnbapi/omo/daily" note="open-market operations · filters: from, to (YYYY-MM-DD) · date= shorthand" />
+        </Section>
+
         <Section icon="code" title="Editor API (used by this UI)" accent="bg-indigo-100 text-indigo-700">
           <Row m="GET" path="/api/store" note="counts across all sources" />
           <Row m="*" path="/api/listings · /api/listings/{hash_id} · /api/listings/bulk" />
@@ -62,6 +67,8 @@ export default function ApiDocs() {
           <Row m="*" path="/api/sellers · /api/sellers/{id}" />
           <Row m="*" path="/api/rss/{source} · /api/rss/items/{id}" />
           <Row m="*" path="/api/ares · /api/ares/{ico}" />
+          <Row m="*" path="/api/cnb/pribor · /api/cnb/pribor/{id}" />
+          <Row m="*" path="/api/cnb/omo · /api/cnb/omo/{id}" />
         </Section>
       </div>
     </div>

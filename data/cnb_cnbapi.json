@@ -1,0 +1,51 @@
+{
+  "pribor": [
+    { "validFor": "2026-06-03", "period": "ONE_DAY", "pribid": null, "pribor": 3.5 },
+    { "validFor": "2026-06-03", "period": "ONE_WEEK", "pribid": null, "pribor": 3.52 },
+    { "validFor": "2026-06-03", "period": "TWO_WEEKS", "pribid": null, "pribor": 3.54 },
+    { "validFor": "2026-06-03", "period": "ONE_MONTH", "pribid": null, "pribor": 3.55 },
+    { "validFor": "2026-06-03", "period": "THREE_MONTH", "pribid": null, "pribor": 3.59 },
+    { "validFor": "2026-06-03", "period": "SIX_MONTH", "pribid": null, "pribor": 3.72 },
+    { "validFor": "2026-06-03", "period": "ONE_YEAR", "pribid": null, "pribor": 3.85 }
+  ],
+  "omo": [
+    {
+      "operationType": "Depozitní facilita",
+      "liquidityImpact": "Stažení",
+      "tradeDate": "2026-06-05",
+      "settlementDate": "2026-06-05",
+      "maturityDate": "2026-06-08",
+      "marginalRateInPercent": 2.5,
+      "totalBidVolumeInCZKbln": 2.013,
+      "totalNumberOfBids": 3,
+      "minimumBidRateInPercent": 2.5,
+      "averageBidRateInPercent": 2.5,
+      "maximumBidRateInPercent": 2.5,
+      "totalAllotedVolumeInCZKbln": 2.013,
+      "totalNumberOfAllotedBids": 3,
+      "minimumAllotedRateInPercent": 2.5,
+      "averageAllotedRateInPercent": 2.5,
+      "maximumAllotedRateInPercent": 2.5,
+      "allotmentPercentage": 100
+    },
+    {
+      "operationType": "Repo",
+      "liquidityImpact": "Stažení",
+      "tradeDate": "2026-06-05",
+      "settlementDate": "2026-06-05",
+      "maturityDate": "2026-06-19",
+      "marginalRateInPercent": 3.5,
+      "totalBidVolumeInCZKbln": 464.4,
+      "totalNumberOfBids": 26,
+      "minimumBidRateInPercent": 3.49,
+      "averageBidRateInPercent": 3.5,
+      "maximumBidRateInPercent": 3.5,
+      "totalAllotedVolumeInCZKbln": 446.496,
+      "totalNumberOfAllotedBids": 26,
+      "minimumAllotedRateInPercent": 3.49,
+      "averageAllotedRateInPercent": 3.5,
+      "maximumAllotedRateInPercent": 3.5,
+      "allotmentPercentage": 96
+    }
+  ]
+}
